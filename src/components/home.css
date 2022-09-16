@@ -1,0 +1,71 @@
+.outerbg {
+  background: linear-gradient(-45deg, #01e8fe, #429ebd, #00457c, #053f5c);
+  background-size: 400%;
+  animation: gradient 15s ease infinite;
+  height: 1200px;
+  padding-top: 100px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animation-styles {
+  margin-bottom: 100px;
+}
+
+.steps-outer {
+  text-align: center;
+}
+
+.steps-header {
+  margin: 20px;
+}
+
+.steps {
+  background-color: #cf232a;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(13, 11, 49);
+  text-align: center;
+  margin: 0 auto;
+  transition: transform 0.3s;
+  width: 50%;
+  color: aliceblue;
+  border: 2px solid black;
+}
+.steps:hover {
+  transform: scale(1.2);
+  transition: all 1s ease;
+  background-color: #053f5c;
+  border: 2px solid white;
+}
+
+.home-img {
+  height: 700px;
+  width: 800px;
+}
+
+.Explosion {
+  height: 24rem;
+  margin: 0 auto;
+  position: relative;
+  width: 294px;
+}
+
+.Explosion-box {
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  height: 8.4rem;
+  margin: 1px;
+  width: 6rem;
+}
