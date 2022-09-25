@@ -1,0 +1,96 @@
+.admin {
+  margin-top: 100px;
+}
+
+.items {
+  color: black;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.textfield-label {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.textfield {
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  background-color: lightgray;
+}
+
+.textfield-btn {
+  height: 40px;
+  width: 150px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #cf232a;
+  color: #fff;
+}
+
+.MuiInputLabel-formControl {
+  position: relative !important;
+}
+
+.input {
+  display: grid;
+  width: 40%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: #ff8d40;
+  background: linear-gradient(180deg, #ff8d40, #429ebd);
+}
+
+.admin-submit-outer {
+  width: 100%;
+  text-align: center;
+}
+
+.admin-submit {
+  height: 40px;
+  width: 100px;
+  background: #cf232a;
+  color: #fff;
+}
+
+.MuiInput-underline:after {
+  border: 2px solid #3f51b5;
+  height: 30px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.MuiButton-contained {
+  width: 150px;
+  margin: 0 auto !important;
+  background: #cf232a !important;
+  color: #fff !important;
+  margin: 1px solid black;
+}
+
+.MuiButton-contained:hover {
+  color: #fff !important;
+}
+
+select#games.textfield {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.message {
+  position: fixed;
+  bottom: 20px;
+  border-radius: 10px;
+  right: 20px;
+  width: 250px;
+  display: flex;
+}
+
+.message-main {
+  flex-grow: 1;
+}
